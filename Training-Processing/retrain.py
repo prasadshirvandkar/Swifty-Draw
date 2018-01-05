@@ -79,7 +79,7 @@ size and latency options. The first number can be '1.0', '0.75', '0.50', or
 '0.25' to control the size, and the second controls the input image size, either
 '224', '192', '160', or '128', with smaller sizes running faster. See
 https://research.googleblog.com/2017/06/mobilenets-open-source-models-for.html
-for more information on Mobilenet.
+for more information on Mobilenet. 
 
 To use with TensorBoard:
 
