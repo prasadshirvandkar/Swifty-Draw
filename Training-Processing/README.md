@@ -1,5 +1,4 @@
 # Dataset | Preprocessing and training
--------
 
 You can easily prepocess and train the [quickdraw dataset](https://github.com/googlecreativelab/quickdraw-dataset) to make it work for this application. Since I won't be uploading the dataset myself, you will have to process the dataset on your own for further usage.
 
