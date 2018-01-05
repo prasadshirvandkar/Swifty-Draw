@@ -14,6 +14,7 @@ Download the dataset from : [Numpy image bitmaps](https://console.cloud.google.c
 
 NOTE: Only download the categories you need. Total size of all the npy files collectively is more than 35gb.
 
+
 ## Training and Processing of Data
 
 ## Processing :
