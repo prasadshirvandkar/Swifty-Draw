@@ -42,6 +42,7 @@ Then
 ```
 python3 -m retrain \
   --bottleneck_dir=TrainingResult/bottlenecks \
+  --how_many_training_steps=7000 \
   --model_dir=TrainingResult/models/ \
   --summaries_dir=TrainingResult/training_summaries/"mobilenet_1.0_224" \
   --output_graph=TrainingResult/retrained_graph.pb \
