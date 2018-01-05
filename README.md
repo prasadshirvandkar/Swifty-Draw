@@ -1,6 +1,6 @@
 # Swifty-Draw
 Swifty Draw is a simple ML(Machine Learning) experiment/game running on Android and uses Tensorflow from all processing. 
-This is completely based on Doodling where the drawn doodles are fed to Neural Network which then recognizes what is drawn.
+This is completely based on Doodling where the drawn doodles are fed to Neural Network which then recognizes what is drawn.\n
 This example uses only 19 images data for Demonstrating. 
 A task is given to draw and it needs to be completed within given time. You will have one chance.
 
