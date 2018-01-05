@@ -17,7 +17,7 @@ But, you have to get your own images data and train it.
 So you'll have to train the neural network yourself to get these files out. 
 Checkout [Training and Processing](https://github.com/MidsizeMango/Swifty-Draw/tree/master/Training-Processing) for details about processing and training.
 
-Credits:
+## Credits:
 Aniruddh Chandatre
 
 ## License
