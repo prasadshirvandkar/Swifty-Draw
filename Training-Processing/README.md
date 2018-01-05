@@ -14,7 +14,8 @@ Download the dataset from : [Numpy image bitmaps](https://console.cloud.google.c
 
 NOTE: Only download the categories you need. Total size of all the npy files collectively is more than 35gb.
 
-####Training and Processing of Data :
+##Training and Processing of Data :
+
 ##Processing
 The npy files are provided as input to convert_npy_to_jpg.py python script which will generate about 1000 images (can be edited) in each category processed.
 
