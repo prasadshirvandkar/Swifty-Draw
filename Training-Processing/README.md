@@ -14,9 +14,9 @@ Download the dataset from : [Numpy image bitmaps](https://console.cloud.google.c
 
 NOTE: Only download the categories you need. Total size of all the npy files collectively is more than 35gb.
 
-##Training and Processing of Data :
+## Training and Processing of Data
 
-##Processing
+## Processing :
 The npy files are provided as input to convert_npy_to_jpg.py python script which will generate about 1000 images (can be edited) in each category processed.
 
 NOTE: Before running the file, check or change the input and output location according to your directory location in the script.
@@ -28,7 +28,7 @@ python3 convert_npy_to_jpg.py
 ```
 The images are the input to the neural network training.
 
-##Training
+## Training :
 The retrain script can retrain either Inception V3 model or a MobileNet. In this exercise, we will use a MobileNet. The principal difference is that Inception V3 is optimized for accuracy, while the MobileNets are optimized to be small and efficient, at the cost of some accuracy.
 
 Inception V3 has a first-choice accuracy of 78% on ImageNet, but is the model is 85MB, and requires many times more processing than even the largest MobileNet configuration, which achieves 70.5% accuracy, with just a 19MB download.
