@@ -11,10 +11,8 @@ A task will be provided to draw and it needs to be completed within given time. 
 
 Building this is pretty easy. Simply import the files in Android Studio and you are good to go. 
 
-But, you have to get your own images data and train it.
-
-* Training the dataset : The retrained_graph_swiftydraw.pb and retrained_labels_swiftydraw.txt have not been provided in this source. 
-So you'll have to train the neural network yourself to get these files out. 
+* Training the dataset : The retrained_graph_swiftydraw.pb and retrained_labels_swiftydraw.txt have been provided in this source.
+But if you more data or images, then you will have to train your own data and create neural network yourself to get these files out. 
 Checkout [Training and Processing](https://github.com/MidsizeMango/Swifty-Draw/tree/master/Training-Processing) for details about processing and training.
 
 ## Credits:
