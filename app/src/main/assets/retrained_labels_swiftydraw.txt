@@ -1,0 +1,19 @@
+alarm clock
+apple
+backpack
+bed
+bicycle
+book
+cake
+camera
+circle
+clock
+envelope
+flower
+hammer
+light bulb
+line
+postcard
+snail
+snake
+tree

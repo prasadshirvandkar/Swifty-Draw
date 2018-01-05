@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Swifty Draw</string>
+    <string name="play">Play</string>
+    <string name="exit">Exit</string>
+    <string name="todo">todo</string>
+    <string name="draw">Draw</string>
+    <string name="in_25_seconds">in 25 seconds</string>
+    <string name="start">Start</string>
+    <string name="game_over">Game Over</string>
+    <string name="next">Next</string>
+    <string name="stop">Stop</string>
+    <string name="cancel">Cancel</string>
+    <string name="resume">resume</string>
+
+</resources>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.rm.freedrawview.FreeDrawView
+        android:id="@+id/draw_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        app:paintAlpha="255"
+        app:paintColor="@android:color/black"
+        app:resizeBehaviour="crop"
+        app:layout_constraintTop_toBottomOf="@id/topLayout_rg"
+        app:layout_constraintBottom_toTopOf="@id/bottomLayout_rg"/>
+
+    <LinearLayout
+        android:id="@+id/topLayout_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <FrameLayout
+            android:id="@+id/clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clear"
+                android:textAllCaps="true"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:padding="10dp"
+                android:layout_gravity="left" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_rectangle3"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp">
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="0:24"
+                    android:textStyle="bold"
+                    android:textSize="28sp"
+                    android:padding="8dp"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/undo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/undo"
+                android:layout_gravity="center"
+                android:paddingStart="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingEnd="5dp"
+                android:contentDescription="@string/todo" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/redo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/redo"
+                android:layout_gravity="center"
+                android:paddingStart="5dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingEnd="10dp"
+                android:contentDescription="@string/todo" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/bottomLayout_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/labelFrame">
+
+        <TextView
+            android:id="@+id/sayitout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="It maybe Eiffel Tower"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:textSize="18sp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/labelFrame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageButton
+            android:id="@+id/pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pause"
+            android:padding="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_gravity="start|center"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:id="@+id/label_text_game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Draw The Eiffel Tower"
+            android:layout_gravity="center"
+            android:padding="12dp"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/next_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next"
+            android:background="@android:color/transparent"
+            android:textColor="@color/white"
+            android:layout_gravity="end"
+            android:gravity="end|center"
+            android:visibility="gone"
+            android:padding="12dp"
+            android:layout_marginEnd="5dp"
+            android:textSize="16sp"
+            android:foreground="?android:attr/selectableItemBackground"/>
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>
