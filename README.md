@@ -5,7 +5,7 @@ This is completely based on Doodling where the drawn doodles are fed to Neural N
 This example uses only 19 images data for Demonstrating. 
 A task will be provided to draw and it needs to be completed within given time. You will have one chance.
 
-<img src="https://raw.githubusercontent.com/MidsizeMango/Swifty-Draw/master/image_fs.png" /> 
+<img src="https://raw.githubusercontent.com/MidsizeMango/Swifty-Draw/master/AFFIX_20180108_171858.png" /> 
 
 ## Building
 
