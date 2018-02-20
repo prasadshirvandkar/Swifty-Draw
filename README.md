@@ -15,9 +15,6 @@ Building this is pretty easy. Simply import the files in Android Studio and you 
 But if you more data or images, then you will have to train your own data and create neural network yourself to get these files out. 
 Checkout [Training and Processing](https://github.com/MidsizeMango/Swifty-Draw/tree/master/Training-Processing) for details about processing and training.
 
-## Credits:
-Aniruddh Chandatre
-
 ## License
 
 This is under the MIT License : 
